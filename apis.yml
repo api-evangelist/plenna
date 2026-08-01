@@ -1,7 +1,29 @@
 aid: plenna
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plenna.png
 name: Plenna
-description: Plenna is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plenna is a women's healthcare provider operating a network of integrated
+  medical clinics across Mexico City, redefining health for women across every
+  life stage. Its services span gynecology, maternity and prenatal care,
+  fertility, menopause, contraception, gynecological surgery, psychology,
+  nutrition, laboratory studies, vaccines and lactation support, delivered
+  across six physical clinics (Tlalpan, Coapa, Del Valle, Polanco, San Angel
+  and Satelite) and through Portal Plenna, a patient portal and iOS/Android
+  mobile app for scheduling appointments, virtual consultations, test results,
+  prescriptions and pregnancy tracking. Plenna is a 500 Global portfolio
+  company. It is surfaced in the API Evangelist network as a company profile;
+  no public developer API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/plenna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Women's Health
+- Femtech
+- Telemedicine
+- Medical Clinics
+- Mexico
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://soyplenna.com
+- type: Blog
+  url: https://soyplenna.com/blog
+- type: Support
+  url: https://soyplenna.com/faqs
+- type: Login
+  url: https://portal.plenna.io/login
+- type: PrivacyPolicy
+  url: https://soyplenna.com/footer/aviso-de-privacidad
+- type: TermsOfService
+  url: https://soyplenna.com/footer/terminos-y-condiciones
+- type: DomainSecurity
+  url: security/plenna-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
